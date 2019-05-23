@@ -4,7 +4,7 @@ services:
         depends_on:
             - mysql
             - redis
-        image: lnp:web
+        image: lnp:webfffff
         volumes:
             - /your/path/www:/data/www   #放你的代码,配置文件里涉及到mysql和redis IP，只需要写redis或者mysql
             - /your/path/conf:/usr/local/websoft/openresty/nginx/conf/vhost #放你的nginx配置文件
